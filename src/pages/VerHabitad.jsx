@@ -8,7 +8,7 @@ function App() {
   const [waterLevel, setWaterLevel] = useState(0); // Inicializado como numérico
 
   useEffect(() => {
-    const socket = new WebSocket('ws://localhost:8080');
+    const socket = new WebSocket('ws://44.223.144.168');
 
     socket.onmessage = (event) => {
       const data = JSON.parse(event.data);
