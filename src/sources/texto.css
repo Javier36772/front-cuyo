@@ -1,0 +1,10 @@
+.conteiner  {
+    display: flex;
+    justify-content: center; /* Alineación horizontal */
+    align-items: center; /* Alineación vertical */
+  }
+  
+  .componente {
+    width: 200px; /* Ancho deseado */
+    /* Otros estilos para los componentes */
+  }

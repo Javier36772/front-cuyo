@@ -1,0 +1,25 @@
+.bblue{
+background-color: rgb(1, 46, 250);
+width: 75%;
+height: 100%;
+border-radius: 60px;
+font-size: 17px;
+font-family:Arial, Helvetica, sans-serif;
+color: aliceblue;
+
+}
+.bblue:active{
+    background-color: aqua;
+}
+
+
+
+.conteiner{
+    display: flex;
+flex-direction: column;
+    flex-wrap: wrap;
+
+padding-top: 100px;
+width: 300px;
+    
+}

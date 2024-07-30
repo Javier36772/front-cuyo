@@ -1,0 +1,41 @@
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 0px;
+  }
+  
+  .input[type="text"],
+  .input[type="email"],
+  .input[type="password"],
+  .input[type="date"],
+  .button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid #0d0d0d;
+  }
+  
+  .input[type="text"]:focus,
+  .input[type="email"]:focus,
+  .input[type="password"]:focus,
+  .input[type="date"]:focus {
+    outline: none;
+  }
+  
+  .button {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #ccc;
+  }

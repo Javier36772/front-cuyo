@@ -1,0 +1,33 @@
+.background {
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 100%;
+  z-index: 1;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center ;
+}
+.body{
+background: #042356;
+background-position: linear-gradient(to right,#273b68,#042356);
+
+}
+.imgLogoPage{
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .imgLogoPage {
+    width: 18em;
+    height: 18em;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .imgLogoPage {
+    width: 12em;
+    height: 12em;
+  }
+}

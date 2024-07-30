@@ -1,0 +1,46 @@
+.tarjeta{
+width: 70%;
+height: 100%;
+margin-top: 7%;
+box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+border-radius: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .label {
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input2 {
+    padding: 8px;
+    border: 1px solid #000000;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  
+  
+  .button {
+    padding: 10px 15px;
+    background-color: #fffdfd;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 5%;
+  }
+
+  .futer{
+    background-color: white;
+ 
+  }

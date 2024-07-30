@@ -1,0 +1,120 @@
+/* Estilos generales */
+body {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor principal */
+.container-date {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.divisor {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Formulario */
+.form-panel {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  box-shadow: rgba(238, 237, 237, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  margin: 2em 0;
+  background-color: #02701a; /* Fondo verde claro */
+  color: white; /* Texto blanco */
+}
+
+.form-panel form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-panel .form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-panel .form-control {
+  padding: 10px;
+  border: 1px solid #4caf50; /* Borde verde */
+  border-radius: 4px;
+  width: 100%;
+  max-width: 400px;
+  color: black; /* Texto de los inputs negro */
+}
+
+/* Botón principal */
+.btn-primary {
+  background-color: #4caf50; /* Verde */
+  color: rgb(242, 240, 240);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  max-width: 200px;
+  text-align: center;
+}
+
+.react-calendar__navigation button {
+  color: #4caf50; /* Verde */
+  min-width: 44px;
+  background: none;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+/* Contenedor de botones de tiempo */
+.time-buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+/* Estilos para los botones de tiempo */
+.time-button {
+  background-color: #4caf50; /* Verde */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.time-button.active {
+  background-color: darkgreen;
+}
+
+/* Ajustes generales para adaptabilidad */
+@media (min-width: 600px) {
+  .form-panel {
+    flex-direction: row;
+  }
+  
+  .form-panel form {
+    width: auto;
+  }
+}
+
+@media (max-width: 599px) {
+  .form-panel {
+    flex-direction: column;
+  }
+  
+  .form-panel form {
+    width: 100%;
+  }
+}
+

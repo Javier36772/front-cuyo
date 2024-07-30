@@ -1,0 +1,17 @@
+.scroll{
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+
+}
+.scroll-container{
+display: flex;
+justify-content: end;
+margin-right: 2%;
+margin-bottom: 2%;
+}
+
+.scroll{
+
+
+}
+

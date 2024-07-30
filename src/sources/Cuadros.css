@@ -1,0 +1,46 @@
+.cuadrito{
+    width: 45%;
+    height: 60%;
+    border-top: rgb(246, 2, 2) solid;
+    text-align: justify;
+    font-size: 20px;
+    color: rgb(94, 94, 94);
+    }
+    
+                
+    .container{
+    display: flex;
+    width: 80%;
+    height: 80%;
+    flex-wrap: wrap;
+    
+    justify-content: flex-end;
+    justify-content: space-between;
+    }
+    
+    
+    
+    .containerF{
+        display: flex;
+      
+     
+    margin: 100px;
+        }
+    
+    
+    h2{
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    
+    img{
+        display: flex;
+        width: 50px;
+        margin-bottom: 15px;
+    margin-top: 15px;
+    }
+    
+    .cuadrito a{
+    font-size: 15px;
+    
+    }
